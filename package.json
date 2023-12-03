@@ -1,0 +1,51 @@
+{
+  "name": "element-meteor",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "build": "meteor build ../output/vue --directory",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@aacassandra/vue3-progressbar": "^1.0.3",
+    "@babel/runtime": "^7.17.9",
+    "@types/type-name": "^1.0.32",
+    "convert-source-map": "^2.0.0",
+    "decimal.js": "^10.4.3",
+    "element-plus": "^2.4.3",
+    "inputmask": "^5.0.8",
+    "meteor-node-stubs": "^1.2.1",
+    "moment": "^2.29.4",
+    "node-sass": "^9.0.0",
+    "numeral": "^2.0.6",
+    "simpl-schema": "^1.13.1",
+    "source-map": "^0.7.4",
+    "source-map-js": "^1.0.2",
+    "vue": "^3.2.36",
+    "vue-element-loading": "^3.0.1",
+    "vue-i18n": "^9.8.0",
+    "vue-meta": "^2.4.0",
+    "vue-meteor-tracker": "^3.0.0-beta.7",
+    "vue-router": "^4.1.6",
+    "vue3-touch-events": "^4.1.8",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "@types/meteor": "^2.8.1",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.3"
+  }
+}

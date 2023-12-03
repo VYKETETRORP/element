@@ -1,0 +1,67 @@
+@import '{}/node_modules/element-plus/dist/index.css';
+//@import '~element-plus/dist/index.css';
+
+
+:root {
+  --el-color-primary: #1890ff;
+  --el-color-success: #52c41a;
+  --el-color-warning: #faad14;
+  --el-color-danger: #f5222d;
+  --el-color-error: #f5222d;
+
+  --el-color-primary-rgb: 47, 155, 255;
+  --el-color-success-rgb: 99, 202, 49;
+  --el-color-warning-rgb: 251, 181, 43;
+  --el-color-danger-rgb: 246, 56, 66;
+  --el-color-error-rgb: 246, 56, 66;
+
+  --el-color-primary-light-1: rgb(47, 155, 255);
+  --el-color-primary-light-2: rgb(70, 166, 255);
+  --el-color-primary-light-3: rgb(93, 177, 255);
+  --el-color-primary-light-4: rgb(116, 188, 255);
+  --el-color-primary-light-5: rgb(140, 200, 255);
+  --el-color-primary-light-6: rgb(163, 211, 255);
+  --el-color-primary-light-7: rgb(186, 222, 255);
+  --el-color-primary-light-8: rgb(209, 233, 255);
+  --el-color-primary-light-9: rgb(232, 244, 255);
+
+  --el-color-success-light-1: rgb(99, 202, 49);
+  --el-color-success-light-2: rgb(117, 208, 72);
+  --el-color-success-light-3: rgb(134, 214, 95);
+  --el-color-success-light-4: rgb(151, 220, 118);
+  --el-color-success-light-5: rgb(169, 226, 141);
+  --el-color-success-light-6: rgb(186, 231, 163);
+  --el-color-success-light-7: rgb(203, 237, 186);
+  --el-color-success-light-8: rgb(220, 243, 209);
+  --el-color-success-light-9: rgb(238, 249, 232);
+
+  --el-color-warning-light-1: rgb(251, 181, 43);
+  --el-color-warning-light-2: rgb(251, 189, 67);
+  --el-color-warning-light-3: rgb(252, 198, 91);
+  --el-color-warning-light-4: rgb(252, 206, 114);
+  --el-color-warning-light-5: rgb(253, 214, 138);
+  --el-color-warning-light-6: rgb(253, 222, 161);
+  --el-color-warning-light-7: rgb(254, 230, 185);
+  --el-color-warning-light-8: rgb(254, 239, 208);
+  --el-color-warning-light-9: rgb(255, 247, 232);
+
+  --el-color-danger-light-1: rgb(246, 56, 66);
+  --el-color-danger-light-2: rgb(247, 78, 87);
+  --el-color-danger-light-3: rgb(248, 100, 108);
+  --el-color-danger-light-4: rgb(249, 122, 129);
+  --el-color-danger-light-5: rgb(250, 145, 150);
+  --el-color-danger-light-6: rgb(251, 167, 171);
+  --el-color-danger-light-7: rgb(252, 189, 192);
+  --el-color-danger-light-8: rgb(253, 211, 213);
+  --el-color-danger-light-9: rgb(254, 233, 234);
+
+  --el-color-error-light-1: rgb(246, 56, 66);
+  --el-color-error-light-2: rgb(247, 78, 87);
+  --el-color-error-light-3: rgb(248, 100, 108);
+  --el-color-error-light-4: rgb(249, 122, 129);
+  --el-color-error-light-5: rgb(250, 145, 150);
+  --el-color-error-light-6: rgb(251, 167, 171);
+  --el-color-error-light-7: rgb(252, 189, 192);
+  --el-color-error-light-8: rgb(253, 211, 213);
+  --el-color-error-light-9: rgb(254, 233, 234);
+}

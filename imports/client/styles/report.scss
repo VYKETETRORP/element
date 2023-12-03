@@ -1,0 +1,246 @@
+/* Khmer font */
+.kh-moul {
+  font-family: 'Roboto', 'Moul' !important;
+}
+.kh-battambang {
+  font-family: 'Roboto', 'Battambang' !important;
+}
+.kh-fasthand {
+  font-family: 'Roboto', 'Fasthand' !important;
+}
+.kh-bokor {
+  font-family: 'Roboto', 'Bokor' !important;
+}
+.kh-bokor {
+  font-family: 'Roboto', 'Bokor' !important;
+}
+
+.report-card {
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 15px;
+  overflow: unset !important;
+  :deep(.el-card__header) {
+    padding: 4px 10px !important;
+    .card-header {
+      display: flex;
+      flex-flow: row nowrap;
+      .header-left {
+        flex: 1;
+      }
+      .header-right {
+        flex: 1;
+        text-align: right;
+      }
+    }
+  }
+}
+
+// Show part checkbox title
+.part-title {
+  text-transform: capitalize;
+}
+
+$body-color: #34495e;
+$title-color: #2c3e50;
+$filters-border-bottom-color: #ddd;
+$table-th-bgcolor: #f5f7fa;
+$table-th-color: #2c3e50;
+$table-td-color: #34495e;
+$table-border-bottom-color: #ddd;
+.report-body {
+  color: $body-color;
+  font-size: 12px !important;
+  // Kh font
+  .kh-moul {
+    font-family: Moul, 'Khmer OS Moul' !important;
+  }
+  .kh-battambang {
+    font-family: Battambang, 'Khmer OS Battambang' !important;
+  }
+  // Header
+  .header {
+    text-align: center;
+    padding-bottom: 10px;
+    color: $title-color;
+    .company-name {
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 5px;
+    }
+    .report-name {
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+    }
+    .report-period {
+      font-size: 14px;
+      font-weight: 500;
+      padding-bottom: 5px;
+    }
+    .company-address {
+      // .table-content': {
+      //   'border-collapse': 'collapse',
+      //   width: '100%',}
+    }
+  }
+  // Filter
+  .filter {
+    padding-bottom: 0px;
+    .title {
+      font-size: 12px !important;
+      color: $title-color;
+      font-weight: 500;
+    }
+  }
+  // Content
+  .content {
+    padding-bottom: 5px;
+  }
+  .table-content {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 23px;
+    thead {
+      th {
+        color: $table-th-color;
+        border-bottom: 1px solid $table-border-bottom-color;
+        padding: 2px 5px;
+        background-color: $table-th-bgcolor;
+        text-align: left;
+        text-transform: uppercase;
+        position: sticky;
+        top: 0px;
+        box-shadow: 0.25em 0.25em 0.25em lightgray;
+      }
+    }
+    tbody {
+      th {
+        color: $table-th-color;
+        border-bottom: 1px solid $table-border-bottom-color;
+        padding: 2px 5px;
+        background-color: $table-th-bgcolor;
+        text-align: left;
+        text-transform: uppercase;
+      }
+    }
+    td {
+      color: $table-td-color;
+      border-bottom: 1px solid $table-border-bottom-color;
+      padding: 2px 5px;
+      text-align: left;
+      vertical-align: top;
+    }
+    tbody {
+      tr:hover {
+        background-color: #f4f7fa;
+      }
+    }
+  }
+  // Timestamp
+  .timestamp {
+    font-size: 10px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 10px;
+  }
+  // Footer
+  .footer {
+    padding-bottom: 10px;
+    .title {
+      font-size: 13px !important;
+      color: $title-color;
+      font-weight: 600;
+    }
+  }
+  // Signature
+  .signature {
+    padding-top: 20px;
+    clear: both;
+    text-align: center;
+    font-weight: 500;
+  }
+  .note-textarea {
+    text-align: right;
+    margin: 0;
+  }
+  // Grid layout
+  .colspan-6 {
+    flex-direction: column;
+    width: 22%;
+    float: left;
+    flex: auto !important;
+  }
+  .colspan-8 {
+    flex-direction: column;
+    width: 30%;
+    float: left;
+    flex: auto !important;
+  }
+  .colspan-12 {
+    flex-direction: column;
+    width: 45%;
+    float: left;
+    flex: auto !important;
+  }
+  // Text align
+  .text-left {
+    text-align: left !important;
+  }
+  .text-right {
+    text-align: right !important;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .ra-text-left {
+    text-align: left !important;
+  }
+  .ra-text-right {
+    text-align: right !important;
+  }
+  .ra-text-center {
+    text-align: center !important;
+  }
+  .ra-text-underline {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }
+  .ra-text-dblunderline {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+  // Text bold
+  .text-bold {
+    font-weight: bold;
+  }
+  .ra-text-bold {
+    font-weight: bold;
+  }
+  // Text italic
+  .text-italic {
+    font-style: italic;
+  }
+  .ra-text-italic {
+    font-style: italic;
+  }
+  // Text transform
+  .ra-text-capital {
+    text-transform: capitalize;
+  }
+  .ra-text-lower {
+    text-transform: lowercase;
+  }
+  .ra-text-upper {
+    text-transform: uppercase;
+  }
+  // Word break
+  .ra-break-all {
+    word-break: break-all;
+  }
+  .ra-break-work {
+    word-break: break-word;
+  }
+}

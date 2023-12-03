@@ -1,0 +1,17 @@
+export default {
+  'Customer Center': 'Customer Center',
+  Transaction: 'Transaction',
+  'Exchange Rate': 'Lists Exchange Rate',
+  Setting: 'Setting',
+  'Exchange Rate Form': 'Exchange Rate',
+  CashDeposit: 'Lists Cash Deposit',
+  'Cash Deposit Form': 'Cash Deposit',
+  Transfer: 'Lists Transfer',
+  'Transfer Form': 'Transfer',
+  'Money Transfer': 'Money Transfer',
+  'Transaction Report': 'Exchange Transaction',
+  'Transaction Summary Report': 'Exchange Transaction Summary',
+  'Transaction Report Details': 'Exchange Transaction Details By Currencies',
+  'Transaction Employees Details': 'Exchange Transaction Details By Employees',
+  'Money Transfer Report': 'Money Transfer Report',
+}

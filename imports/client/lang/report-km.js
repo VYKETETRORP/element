@@ -1,0 +1,17 @@
+export default {
+  Accounting: 'គណនេយ្យ',
+  General: 'ទូទៅ',
+  Journal: 'ទិនានុប្បវត្តិ',
+  'General Ledger': 'សៀវភៅធំ',
+  'Trial Balance': 'តុល្យភាពសាកល្បង',
+  'Profit & Loss': 'ចំណេញ ឬខាត',
+  'Profit & Loss Comparison': 'ប្រៀបធៀបប្រាក់ចំណេញ ឬខាត',
+  'Profit & Loss by Month': 'ចំណេញ ឬខាតតាមខែ',
+  'Profit & Loss by Class': 'ចំណេញ ឬខាតតាមថ្នាក់',
+  'Balance Sheet': 'តារាងតុល្យភាព',
+  'Balance Sheet Comparison': 'ការប្រៀបធៀបតារាងតុល្យភាព',
+  'Cash Transaction': 'ប្រតិបត្តិការសាច់ប្រាក់',
+  'Transaction Detail': 'ពត៌មានអំពីប្រតិបត្តិការ',
+  'Account List': 'បញ្ជីគណនី',
+  'Fixed Asset': 'ទ្រព្យសកម្ម',
+}

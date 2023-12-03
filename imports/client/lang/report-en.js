@@ -1,0 +1,17 @@
+export default {
+  Accounting: 'Accounting',
+  General: 'General',
+  Journal: 'Journal',
+  'General Ledger': 'General Ledger',
+  'Trial Balance': 'Trial Balance',
+  'Profit & Loss': 'Profit & Loss',
+  'Profit & Loss Comparison': 'Profit & Loss Comparison',
+  'Profit & Loss by Month': 'Profit & Loss by Month',
+  'Profit & Loss by Class': 'Profit & Loss by Class',
+  'Balance Sheet': 'Balance Sheet',
+  'Balance Sheet Comparison': 'Balance Sheet Comparison',
+  'Cash Transaction': 'Cash Transaction',
+  'Transaction Detail': 'Transaction Detail',
+  'Account List': 'Account List',
+  'Fixed Asset': 'Fixed Asset',
+}

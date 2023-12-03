@@ -1,0 +1,248 @@
+/* Main color */
+$--color-primary: #1890ff !default;
+$--color-success: #52c41a !default;
+$--color-warning: #faad14 !default;
+$--color-danger: #f5222d !default;
+$--color-info: #909399 !default;
+$--color-white: #fff !default;
+
+// Primary light
+$--color-primary-light-1: mix(
+  $--color-white,
+  $--color-primary,
+  10%
+) !default; /* 53a8ff */
+$--color-primary-light-2: mix(
+  $--color-white,
+  $--color-primary,
+  20%
+) !default; /* 66b1ff */
+$--color-primary-light-3: mix(
+  $--color-white,
+  $--color-primary,
+  30%
+) !default; /* 79bbff */
+$--color-primary-light-4: mix(
+  $--color-white,
+  $--color-primary,
+  40%
+) !default; /* 8cc5ff */
+$--color-primary-light-5: mix(
+  $--color-white,
+  $--color-primary,
+  50%
+) !default; /* a0cfff */
+$--color-primary-light-6: mix(
+  $--color-white,
+  $--color-primary,
+  60%
+) !default; /* b3d8ff */
+$--color-primary-light-7: mix(
+  $--color-white,
+  $--color-primary,
+  70%
+) !default; /* c6e2ff */
+$--color-primary-light-8: mix(
+  $--color-white,
+  $--color-primary,
+  80%
+) !default; /* d9ecff */
+$--color-primary-light-9: mix(
+  $--color-white,
+  $--color-primary,
+  90%
+) !default; /* ecf5ff */
+
+// Success light
+$--color-success-light-1: mix(
+  $--color-white,
+  $--color-success,
+  10%
+) !default; /* 53a8ff */
+$--color-success-light-2: mix(
+  $--color-white,
+  $--color-success,
+  20%
+) !default; /* 66b1ff */
+$--color-success-light-3: mix(
+  $--color-white,
+  $--color-success,
+  30%
+) !default; /* 79bbff */
+$--color-success-light-4: mix(
+  $--color-white,
+  $--color-success,
+  40%
+) !default; /* 8cc5ff */
+$--color-success-light-5: mix(
+  $--color-white,
+  $--color-success,
+  50%
+) !default; /* a0cfff */
+$--color-success-light-6: mix(
+  $--color-white,
+  $--color-success,
+  60%
+) !default; /* b3d8ff */
+$--color-success-light-7: mix(
+  $--color-white,
+  $--color-success,
+  70%
+) !default; /* c6e2ff */
+$--color-success-light-8: mix(
+  $--color-white,
+  $--color-success,
+  80%
+) !default; /* d9ecff */
+$--color-success-light-9: mix(
+  $--color-white,
+  $--color-success,
+  90%
+) !default; /* ecf5ff */
+
+// Warning light
+$--color-warning-light-1: mix(
+  $--color-white,
+  $--color-warning,
+  10%
+) !default; /* 53a8ff */
+$--color-warning-light-2: mix(
+  $--color-white,
+  $--color-warning,
+  20%
+) !default; /* 66b1ff */
+$--color-warning-light-3: mix(
+  $--color-white,
+  $--color-warning,
+  30%
+) !default; /* 79bbff */
+$--color-warning-light-4: mix(
+  $--color-white,
+  $--color-warning,
+  40%
+) !default; /* 8cc5ff */
+$--color-warning-light-5: mix(
+  $--color-white,
+  $--color-warning,
+  50%
+) !default; /* a0cfff */
+$--color-warning-light-6: mix(
+  $--color-white,
+  $--color-warning,
+  60%
+) !default; /* b3d8ff */
+$--color-warning-light-7: mix(
+  $--color-white,
+  $--color-warning,
+  70%
+) !default; /* c6e2ff */
+$--color-warning-light-8: mix(
+  $--color-white,
+  $--color-warning,
+  80%
+) !default; /* d9ecff */
+$--color-warning-light-9: mix(
+  $--color-white,
+  $--color-warning,
+  90%
+) !default; /* ecf5ff */
+
+// Danger light
+$--color-danger-light-1: mix(
+  $--color-white,
+  $--color-danger,
+  10%
+) !default; /* 53a8ff */
+$--color-danger-light-2: mix(
+  $--color-white,
+  $--color-danger,
+  20%
+) !default; /* 66b1ff */
+$--color-danger-light-3: mix(
+  $--color-white,
+  $--color-danger,
+  30%
+) !default; /* 79bbff */
+$--color-danger-light-4: mix(
+  $--color-white,
+  $--color-danger,
+  40%
+) !default; /* 8cc5ff */
+$--color-danger-light-5: mix(
+  $--color-white,
+  $--color-danger,
+  50%
+) !default; /* a0cfff */
+$--color-danger-light-6: mix(
+  $--color-white,
+  $--color-danger,
+  60%
+) !default; /* b3d8ff */
+$--color-danger-light-7: mix(
+  $--color-white,
+  $--color-danger,
+  70%
+) !default; /* c6e2ff */
+$--color-danger-light-8: mix(
+  $--color-white,
+  $--color-danger,
+  80%
+) !default; /* d9ecff */
+$--color-danger-light-9: mix(
+  $--color-white,
+  $--color-danger,
+  90%
+) !default; /* ecf5ff */
+
+// Info light
+$--color-info-light-1: mix(
+  $--color-white,
+  $--color-info,
+  10%
+) !default; /* 53a8ff */
+$--color-info-light-2: mix(
+  $--color-white,
+  $--color-info,
+  20%
+) !default; /* 66b1ff */
+$--color-info-light-3: mix(
+  $--color-white,
+  $--color-info,
+  30%
+) !default; /* 79bbff */
+$--color-info-light-4: mix(
+  $--color-white,
+  $--color-info,
+  40%
+) !default; /* 8cc5ff */
+$--color-info-light-5: mix(
+  $--color-white,
+  $--color-info,
+  50%
+) !default; /* a0cfff */
+$--color-info-light-6: mix(
+  $--color-white,
+  $--color-info,
+  60%
+) !default; /* b3d8ff */
+$--color-info-light-7: mix(
+  $--color-white,
+  $--color-info,
+  70%
+) !default; /* c6e2ff */
+$--color-info-light-8: mix(
+  $--color-white,
+  $--color-info,
+  80%
+) !default; /* d9ecff */
+$--color-info-light-9: mix(
+  $--color-white,
+  $--color-info,
+  90%
+) !default; /* ecf5ff */
+
+/* icon font path, required */
+$--font-path: '~element-plus/lib/theme-chalk/fonts';
+
+/* default theme, required */
+@import '~element-plus/packages/theme-chalk/src/index';

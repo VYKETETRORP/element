@@ -1,0 +1,69 @@
+.collapse-list {
+  .collapse-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .el-col {
+    width: 30.5%;
+    max-width: 100%;
+    margin: 0px !important;
+    padding: 10px 5px 10px 5px;
+    line-height: 20px;
+    // border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #f3f3f3;
+    margin-right: 2.5%;
+    margin: 0px !important;
+  }
+  .el-col:hover {
+    background: #f4f5f8;
+  }
+
+  .list-title {
+    display: inline-block;
+    font-size: 14px;
+    color: #393a3d;
+
+    .content-panel {
+      width: 100% !important;
+      padding: 10px 5px 10px 5px;
+      line-height: 20px;
+      border-bottom: 1px solid #f3f3f3;
+      margin-right: 2.5%;
+    }
+  }
+  .list-title:hover {
+    color: #409eff;
+    cursor: pointer;
+    transition: 0.15s ease-out;
+    transition-property: initial;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+  }
+  .list-title {
+    display: inline-block;
+    font-size: 14px;
+    color: #393a3d;
+    // margin-bottom: 7px;
+  }
+  .list-title:hover {
+    color: #409eff;
+    cursor: pointer;
+    transition: 0.15s ease-out;
+    transition-property: initial;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+  }
+  .list-title.disabled,
+  .list-title.disabled:hover {
+    color: #c0c4cc;
+    cursor: not-allowed;
+  }
+  .list-memo {
+    font-size: 12px;
+    font-weight: 300;
+    color: #606266;
+  }
+}
