@@ -3,11 +3,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  content: [
-    "./imports/client/**/*.{vue,js,ts,jsx,tsx}",
-    "./imports/modules/**/*.{vue,js,ts,jsx,tsx}",
-    "./client/*.html",
-  ],
+  content: ["./imports/client/**/*.{vue,js,ts,jsx,tsx}", "./client/*.html"],
   theme: {
     extend: {},
     screens: {

@@ -2,7 +2,7 @@ import { App as Application } from 'vue'
 // Vue Router
 import router from './router'
 // Vuex store
-import { store, key } from './store'
+//import { store, key } from './store'
 // Apollo graphql
 // import { apolloProvider } from './apollo-client'
 // Create VueI18n instance with options
@@ -10,15 +10,15 @@ import i18n from './i18n'
 // Progress Bar
 import VueProgressBar from '@aacassandra/vue3-progressbar'
 // Element Plus
-import '/imports/client/styles/el-theme.scss' // recommend import style first
-import '/imports/client/styles/tailwind.css'
+//import '/imports/client/styles/el-theme.scss' // recommend import style first
+//import '/imports/client/styles/tailwind.css'
 import ElementPlus, {
   ElMessageBox,
   ElNotification,
   ElMessage,
   ElLoading,
 } from 'element-plus'
-import ElementIcons from './client/plugins/elementIcons'
+//import ElementIcons from './client/plugins/elementIcons'
 
 // Local plugins
 //import ModuleIsInRolePlugin from '/imports/client/plugins/moduleIsInRole'
@@ -40,11 +40,11 @@ import VueTouchEvents from 'vue3-touch-events'
  * Register plugins, components, directive globally
  **/
 export default (app: Application) => {
+    //  app.use(store, key)
+    //  app.use(ElementIcons)
   app.use(router)
-  app.use(store, key)
   app.use(ElementPlus, { size: 'default' })
   app.use(ElLoading)
-  app.use(ElementIcons)
   app.use(i18n)
   // app.use(apolloProvider)
   app.use(VueProgressBar, {

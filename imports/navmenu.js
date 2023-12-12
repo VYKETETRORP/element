@@ -1,25 +1,21 @@
-import { Meteor } from 'meteor/meteor'
+import { Meteor } from "meteor/meteor";
 
 //------ Module -----
-import appSidebarMenu from '/imports/client/sidebarMenu'
-import appReportMenu from '/imports/client/reportMenu'
-import appToolMenu from '/imports/client/toolMenu'
-// import sampleSidebarMenu from '/imports/modules/sample/client/sidebarMenu'
-// import sampleReportMenu from '/imports/modules/sample/client/reportMenu'
-import exchangeSidebarMenu from '/imports/modules/exchange/sidebarMenu'
-import exchangeReportMenu from '/imports/modules/exchange/reportMenu'
+import appSidebarMenu from "/imports/client/sidebarMenu";
+import appReportMenu from "/imports/client/reportMenu";
+import appToolMenu from "/imports/client/toolMenu";
 
-let sidebarMenu = []
-let reportMenu = []
-let toolMenu = []
+let sidebarMenu = [];
+let reportMenu = [];
+let toolMenu = [];
 
 // Dev mode
 // if (Meteor.isDevelopment) {
 //   sidebarMenu = sidebarMenu.concat(sampleSidebarMenu)
 //   reportMenu = reportMenu.concat(sampleReportMenu)
 // }
-sidebarMenu = sidebarMenu.concat(exchangeSidebarMenu, appSidebarMenu)
-reportMenu = reportMenu.concat(exchangeReportMenu, appReportMenu)
-toolMenu = toolMenu.concat(appToolMenu)
+sidebarMenu = sidebarMenu.concat(appSidebarMenu);
+reportMenu = reportMenu.concat(appReportMenu);
+toolMenu = toolMenu.concat(appToolMenu);
 
-export { sidebarMenu, reportMenu, toolMenu }
+export { sidebarMenu, reportMenu, toolMenu };

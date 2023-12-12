@@ -26,7 +26,9 @@
       "baseUrl": ".",
       "paths": {
         /* Support absolute /imports/* with a leading '/' */
-        "/*": ["*"]
+        "/*": ["*"],
+        //"element-plus": ["node_modules/element-plus/types"]
+
       },
       "moduleResolution": "node",
       "resolveJsonModule": true,
@@ -35,5 +37,11 @@
       "preserveSymlinks": true
     },
     "exclude": ["./.meteor/**", "./packages/**"]
+    
+    
+  
+    //"include": ["./src/**/*.ts", "./src/**/*.d.ts"],
+    //"exclude": ["node_modules", ".meteor"]
+      
   }
   
